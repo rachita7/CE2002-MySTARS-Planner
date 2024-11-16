@@ -1,29 +1,36 @@
-README file
+# 📅 MySTARS Planner 🌟
 
-CE 2002: Object Oriented Design & Programming Group Project
+Academic Project for CE 2002: Object-Oriented Design & Programming (NTU)
 
-Files Included in the project
------------------------------------------------------------------------
-Java codes		--> Contained in folder "STARS Planner"
-Java documentation	--> Contained in folder "STARS Planner"/docs/
-Class Diagram.png	--> Image file of UML Class Diagram in folder "STARS Planner"/Diagrams/
-Sequence Diagram.jpg	--> 3 Image files for UML Sequence Diagram in folder "STARS Planner"/Diagrams/
-Report.pdf		--> Write up on the assignment
-video url.txt		--> Text file containing link to video presentation
+## Files Included in the Project 📂
+- **Java Code**: Contained in the folder `STARS Planner`
+- **Java Documentation**: Located in `STARS Planner/docs/`
+- **Class Diagram**: UML Class Diagram image (`Class Diagram.png`) in `STARS Planner/Diagrams/`
+- **Sequence Diagram**: UML Sequence Diagrams (`Sequence Diagram.jpg`) in `STARS Planner/Diagrams/`
+- **Report**: Assignment write-up in `Report.pdf`
+- **Video URL**: Link to the video presentation in `video url.txt`
 
-Before running the program
------------------------------------------------------------------------
-- Ensure all the above mentioned files are present
-- Two dependencies are required: javax.mail.jar and activation.jar. Ensure both files are included in lib folder.
+## Prerequisites ⚙️
+- Ensure all the files mentioned above are present.
+- **Dependencies**: Two dependencies are required:
+  - `javax.mail.jar`
+  - `activation.jar`
+  
+  Both files should be included in the `lib` folder.
 
-How to run the program
------------------------------------------------------------------------
-1. Navigate to "STARS Planner"/src/ folder in CMD
-1. To compile the project in CMD, execute
-	javac -cp ".;<path>\STARS Planner\lib\*" ./Boundary/StarsPlanner.java
-2. Ignore any warnings. To run the project, execute
-	java -cp ".;<path>\STARS Planner\lib\*" Boundary.StarsPlanner
-3. 1 Admin is defined in the project [Case Sensitive]
-	Username: rayan032
-	Password: Rayan032
-4. You can now test the functionalities in the program.
+## How to Run the Program ▶️
+
+1. Navigate to the `STARS Planner/src/` folder in your Command Prompt (CMD).
+2. To **compile** the project, execute the following command in CMD:
+   ```bash
+   javac -cp ".;<path>\STARS Planner\lib\*" ./Boundary/StarsPlanner.java
+   ```
+3. Ignore any warnings during compilation.
+4. To **run** the program, execute:
+   ```bash
+   java -cp ".;<path>\STARS Planner\lib\*" Boundary.StarsPlanner
+   ```
+5. **Admin Login**: Use the following credentials to log in (case-sensitive):
+   - **Username**: `rayan032`
+   - **Password**: `Rayan032`
+6. You can now test the functionalities of the program.
